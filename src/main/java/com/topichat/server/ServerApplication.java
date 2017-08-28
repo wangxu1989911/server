@@ -38,7 +38,7 @@ public class ServerApplication {
 
             @Override
             protected void afterRequest(HttpServletRequest request, String message) {
-
+                logger.info("");
             }
         };
     }
